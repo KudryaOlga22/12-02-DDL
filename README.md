@@ -60,27 +60,4 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 
-Название таблицы	Название первичного ключа
-film_text          	  film_id
-film_list      	      нет первичного ключа
-sales_by_film_category	нет первичного ключа
-sales_by_film_store	   нет первичного ключа
-film_category           film_id
-category  	            category _id
-actor_info       	      нет первичного ключа
-customer_list      	   нет первичного ключа
-staff_list           	нет первичного ключа
-nicer_but_slower_film_list	нет первичного ключа
- actor	               actor_id
-film_actor        	   actor_id, film_id
-film              	   film_id
-language          	   language_id
-payment            	   payment_id
-rental             	   rental_id
-customer          	   customer_id
-store             	   store_id
-inventory         	   inventory_id
-staff              |	   staff_id
-address            	   address_id
-city               	   city_id
-country           	   country_id
+![alt text](https://github.com/KudryaOlga22/12-02-DDL/blob/main/Screenshot_6.png)
