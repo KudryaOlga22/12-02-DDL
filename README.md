@@ -32,7 +32,7 @@ CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password'
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
-![alt text](https://https://github.com/KudryaOlga22/12-02-DDL/new/main?readme=1/Screenshot_2.png)
+![alt text](https://github.com/KudryaOlga22/12-02-DDL/blob/main/Screenshot_2.png)
 
 
 1.4. Дайте все права для пользователя sys_temp.
@@ -41,7 +41,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost'
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
-![alt text](https://https://github.com/KudryaOlga22/12-02-DDL/new/main?readme=1/Screenshot_3.png)
+![alt text](https://github.com/KudryaOlga22/12-02-DDL/blob/main/Screenshot_3.png)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
@@ -55,7 +55,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
-![alt text](https://https://github.com/KudryaOlga22/12-02-DDL/new/main?readme=1/Screenshot_4.png)
+![alt text](https://github.com/KudryaOlga22/12-02-DDL/blob/main/Screenshot_4.png)
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
